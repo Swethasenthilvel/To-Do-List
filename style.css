@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  #todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #todo-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #todo-list li:last-child {
+    border-bottom: none;
+  }
+  
+  #todo-list .todo-text {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  #todo-list .delete-btn {
+    background-color: #f44336;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  #todo-list .delete-btn:hover {
+    background-color: #e91e63;
+  }
+  
+  .add-todo-container {
+    margin-bottom: 20px;
+  }
+  
+  .add-todo-input {
+    width: 80%;
+    padding: 10px;
+    margin: 10x;
+    border: 1px solid #ccc;
+  }
+  
+  .add-todo-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-todo-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    .container {
+      margin: 10px auto;
+      padding: 10px;
+    }
+    
+    input[type="text"] {
+      width: 100%;
+    }
+    
+    #todo-list li {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    #todo-list .todo-text {
+      font-size: 14px;
+    }
+    
+    #todo-list .delete-btn {
+      padding: 5px;
+      font-size: 12px;
+    }
+  }
