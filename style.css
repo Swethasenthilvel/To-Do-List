@@ -135,7 +135,7 @@ body {
     padding: 5px;
   }
   input[type="text"] {
-    width: 90%;
+    width: 70%;
   }
   .todo-text {
     font-size: 12px;
