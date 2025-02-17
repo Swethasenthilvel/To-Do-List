@@ -125,3 +125,30 @@ body {
       font-size: 12px;
     }
   }
+@media (max-width: 480px) {
+  .container {
+    margin: 5px auto;
+    padding: 5px;
+  }
+  
+  #todo-list li {
+    padding: 5px;
+  }
+  
+  .todo-text {
+    font-size: 12px;
+  }
+  
+  .delete-btn {
+    padding: 3px;
+    font-size: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px;
+  }
+}
